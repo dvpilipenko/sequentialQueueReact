@@ -1,0 +1,21 @@
+.queue-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.queue-panel {
+    display: flex;
+    justify-content: left;
+    width: 600px;
+    height: 52px;
+    overflow: hidden;
+    border: 2px #61dafb solid;
+}
+
+.queue-panel__item {
+    border: 1px green solid;
+    padding: 10px;
+    margin: 2px;
+}
